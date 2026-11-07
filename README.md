@@ -34,15 +34,19 @@ PANDORA is intended to support a broad range of user-defined computational simul
 
 These are potential application areas, not currently implemented capabilities.
 
-## Planned Technologies
+## Planned Toolchain and Technologies
 
-The project is expected to primarily use **Modern C++** and **CMake**. The planned graphics and visualization stack includes **OpenGL**, **GLFW**, **GLAD**, **GLM**, and **ImGui**. These technologies are candidates for the intended foundation; they are not yet integrated or in use in this repository.
+The project is expected to use **Modern C++** with **MSBuild** for its build system. The planned graphics and visualization stack includes **OpenGL**, **GLFW**, **GLEW**, **GLM**, and **ImGui**. GLEW is the planned OpenGL extension loader. These technologies are not yet integrated or in use in this repository.
 
 Future exploration may include **OpenMP**, **MPI**, **CUDA**, compute shaders, **Vulkan**, and distributed simulation. No support for these technologies is currently implemented or promised.
 
 ## Project Status
 
-PANDORA is in an **early development and planning stage**. This repository establishes the project identity, documentation, and initial structure only. There is no engine implementation, simulation system, renderer, or working functionality yet.
+PANDORA is in an **early development and planning stage**. This repository establishes the project identity, documentation, and initial structure only. There is no engine implementation, simulation system, renderer, MSBuild solution/project, or working functionality yet.
+
+## Building
+
+There is currently no buildable target or configured dependency setup. As implementation begins, build instructions will be added for MSBuild and the project’s dependencies, including GLEW.
 
 ## Roadmap
 
@@ -50,7 +54,7 @@ All items below are planned; none are complete.
 
 - [ ] Define project goals, architectural principles, and initial technical requirements.
 - [ ] Establish contribution guidelines and development conventions.
-- [ ] Design the foundational C++ and CMake project structure.
+- [ ] Design the foundational C++ and MSBuild project structure.
 - [ ] Evaluate and integrate the initial graphics and visualization dependencies.
 - [ ] Prototype the core simulation execution architecture.
 - [ ] Explore parallel execution and resource optimization strategies.
