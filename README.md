@@ -1,6 +1,6 @@
 # PANDORA Engine
 
-<p align="center"><strong>[ PANDORA Engine logo placeholder ]</strong></p>
+<p align="center"><img src="assets/Pandora.png" alt="PANDORA Engine logo" width="640"></p>
 
 > **Parallel Architecture for Numerical Dynamics, Optimization, Rendering, and Analysis Engine**
 >
